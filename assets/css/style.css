@@ -1,0 +1,465 @@
+/** 
+Template Name: WE TEXT - HTML Template
+Template URL: http://.com
+Author: asraful kabis
+Author URI: http://.com
+Description:AMBER HTML Template
+Keywords: html,css,js
+
+**/
+
+/*font-family: 'Montserrat', sans-serif;*/
+
+  /*************************/ 
+ /**** COMON CSS *****/
+/*************************/ 
+
+html{
+	font-size: 62.5%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+
+  /*************************/ 
+ /**** Header AREA CSS ****/
+/*************************/ 
+.header-area {
+	background-color: #F8F8FF;
+	padding: 3rem 0;
+	box-shadow: 0px 14px 36px #d8d8d8;
+	margin-bottom: 1rem;
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li{
+	margin-right: 3rem;
+}
+.menu ul a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 1.8rem;
+	color: #232323;
+	transition: .3s;
+}
+.menu ul li:hover a{
+	color: #F58551;
+}
+.menu-area ul i{}
+
+.header-logo{}
+.header-logo img{
+	width: 100%;
+	max-width: 80%;
+}
+.header-icon:hover{
+
+}
+.header-icon ul{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.header-icon li{
+	margin-left: 2.8rem;
+}
+.header-icon a {
+	font-size: 1.8rem;
+	color: #232323;
+	transition: .3s;
+}
+.header-icon ul li:hover a{
+	color: #F58551;
+}
+.Search-bar{
+	max-width: 23.3rem;
+	width: 100%;
+	position: relative;
+}
+.Search-bar input[type="search"] {
+	padding: 7px 14px;
+	border: 1px solid #B9B9B9;
+	border-radius: 24px;
+	width: 233px;
+	background: #FDE4D9;
+	visibility: hidden;
+	opacity: 0;
+	transition: .4s;
+}
+
+.Search-bar button {
+	position: absolute;
+	top: -.1rem;
+	right: -.4rem;
+	border: #F58551;
+	background: transparent;
+
+}
+
+.Search-bar:hover input{
+	visibility: visible;
+	opacity: 1;
+}
+.Search-bar button i {
+	border-radius: 50%;
+	height: 3.6rem;
+	width: 3.6rem;
+	line-height: 3.6rem;
+	font-size: 1.8rem;
+	background: #F58551;
+}
+
+  /*************************/ 
+ /**** start banner CSS ***/
+/*************************/
+	.banner-padding{
+		padding: 0;
+	}
+	.banner-img{
+		position: relative;
+	} 
+	.banner-img img{
+		width: 100%;
+	}
+	.banner-text{
+		position: absolute;
+		top: 50%;
+		left: 41%;
+	}
+	.banner-text h4{
+		color: #fff;
+		font-size: 3rem;
+		font-weight: 700;
+	}
+	.banner-img-button-1 {
+    position: absolute;
+    bottom: 2.6rem;
+    right: 2.6rem;
+}
+	.banner-img-button-2 {
+	position: absolute;
+	bottom: 2.6rem;
+	left: 2.6rem;
+}
+	.banner-button {
+	background: #F58551;
+	/*padding: 1.5rem 3rem;*/
+	border: none;
+	font-weight: 700;
+	font-size: 2.4rem;
+	border-radius: .4rem;
+	height: 59px;
+	width: 187px;
+	transition: 1s;
+}
+/*.banner-button:hover{
+	padding-right: 10px;
+}
+.aray{
+	position: relative;
+}
+.aray .aray-img{
+	position: absolute;
+}
+.aray img{
+	width: 30%;
+}*/
+
+  /*************************/ 
+ /**** start kids CSS ***/
+/*************************/ 
+
+.kids-area{
+	background: url(../images/kids.jpg)no-repeat scroll 0 0 / cover;
+	margin-top: 8rem;
+}
+.kids-text{
+	padding-top: 42.7rem;
+	text-align: center;
+
+}
+.kids-text h2{
+	font-size: 3.6rem;
+	font-weight: 700;
+	color: #fff;
+}
+.kids-text p{
+	font-size: 2.4rem;
+	font-weight: 500;
+	color: #fff;
+}
+.kids-button{
+	padding-bottom: 13.3rem;
+	text-align: center;
+	margin-top: 2.4rem;
+}
+.kid-button {
+	background: #F58551;
+	padding: 1.8rem 6.4rem 1.7rem 6.7rem;
+	border: none;
+	font-weight: 700;
+	font-size: 3.6rem;
+	border-radius: 0.4rem;
+
+}
+.kids-dots{
+	padding-bottom: 2rem;
+}
+.kids-dots ul{
+	display: flex;
+	justify-content: center;
+}
+.kids-dots ul li{
+	margin-right: .9rem;
+}
+.kids-dots ul li a{
+	height: 1.4rem;
+	width: 1.4rem;
+	display: block; 
+	border-radius: 50%;
+	background: #fff;
+	transition: .4s;
+
+}
+.kids-dots .active{
+	background: #F58551;
+}
+.kids-dots ul li:hover a{
+	background: #F58551;
+}
+
+/*************************/ 
+/**** start fetured CSS */
+/*************************/ 
+.fetured-product-content h3{
+	text-align: center;
+	font-weight: 700;
+	font-size: 3.6rem;
+	margin: 8.0rem 0 1.8rem 0;
+}
+.fetured-img img{
+	width: 100%;
+	border-radius: .7rem;
+}
+.fetured-icon ul{
+	display: flex;
+	justify-content: center;
+}
+.fetured-position{
+	position: relative;
+}
+.fetured-icon {
+	position: absolute;
+	bottom: 64px;
+	right: 31px;
+}
+.fetured-icon ul li a {
+	background: #FCDCCD;
+	color: #000;
+	margin: 0 18px;
+	padding: 15px 22px;
+	display: block;
+	text-align: center;
+	transition: all 400ms ease;
+	font-size: 20px;
+	border-radius: 4px;
+}
+.fetured-icon ul li:hover a{
+	background: #F58551;
+}
+.fetured-icon{
+	visibility: hidden;
+	opacity: 0;
+}
+.fetured-position:hover .fetured-icon{
+	visibility: visible;
+	opacity: 1;
+}
+@keyframes tuhin {
+
+  from{
+    transform: translateY(50px);
+   }
+
+  to{
+    transform: translateY(0px);
+  }
+
+}
+.fetured-position:hover .fetured-icon ul li:nth-child(1){
+     animation: tuhin 400ms;
+}
+.fetured-position:hover .fetured-icon ul li:nth-child(2){
+     animation: tuhin 600ms;
+}
+.fetured-position:hover .fetured-icon ul li:nth-child(3){
+     animation: tuhin 800ms;
+}
+
+.fetured-dots .kids-dots ul li a{
+	height: 1.6rem;
+	width: 1.6rem;
+	display: block; 
+	border-radius: 50%;
+	background: transparent;
+	transition: .4s;
+	border: 3px solid #444;
+  }
+   .fetured-dots .kids-dots{
+   	margin-top: 2rem;
+   	margin-bottom: 5rem;
+   	padding: 0;
+   }
+   .fetured-dots .kids-dots .active{
+   		background: #444;
+   }
+  .fetured-dots .kids-dots ul li:hover a{
+  	background: #444;
+  }
+/*************************/ 
+ /**** start puja CSS ***/
+/*************************/ 
+
+
+.puja-colection-area .kids-area{
+	background: url(../images/puja.jpg)no-repeat scroll 0 0 / cover;
+	margin-top: 8rem;
+}
+
+/*************************/ 
+ /**** start fashion CSS ***/
+/*************************/ 
+.fashion-img img{
+	width: 100%;
+	border-radius: .7rem;
+}
+.main-fashion{
+	position: relative;
+}
+.fashion-content {
+	display: flex;
+	position: absolute;
+	top: 3.6rem;
+	left: 1.5rem;
+}
+.dot{
+	height: 1.4rem;
+	width: 1.4rem;
+	display: block;
+	background:#F58551 ;
+	border-radius: 50%;
+}
+.fashion-text{
+	margin-left: 1.0rem;
+}
+.fashion-text h3{
+	font-weight: 700;
+	font-size: 2.4rem;
+	color: #fff;
+	line-height: 1.3rem;
+	margin-bottom: .5rem;
+}
+.fashion-text p{
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #fff;
+	width: 70%;
+}
+
+
+/*************************/ 
+ /**** start footer CSS ***/
+/*************************/ 
+.footer{
+	background: #FDE4D9;
+	margin-top: 14.3rem;
+}
+.footer-item{
+	margin-top: 7rem;
+}
+.footer-logo img{
+	width: 100%;
+	max-width: 33%;
+	margin-bottom: 3.5rem;
+}
+.footer-heading h4{
+	font-size: 	2.4rem;
+	font-weight: 700;
+	color: #232323;
+	margin-bottom: 3rem;
+}
+.footer-list{
+
+}
+.footer-list ul li a{
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #232323;
+}
+.contact-icon{
+
+}
+.contact-icon ul{
+	display: flex;
+}
+.contact-icon ul li{
+	margin-right: 10px;
+}
+.contact-icon ul li a {
+	font-size: 20px;
+	display: block;
+	color: #000;
+	height: 34px;
+	width: 34px;
+	text-align: center;
+	line-height: 36px;
+	transition: .4s;
+}
+.footer-contact h4{
+	margin-bottom: 1rem;
+}
+.contact-icon ul li:hover a{
+	background: #000;
+	color: #fff;
+} 
+.contact-number{
+	margin-top: 1.5rem;
+	margin-bottom: 2.5rem;
+}
+.contact-number ul li a{
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #000;
+}
+.footer-bottom{
+	text-align: center;
+	background: #421804;
+	padding: 2.7rem 0;
+}
+.footer-bottom p{
+	color: #FDE4D9;
+	font-size: 1.4rem;
+}
+.footer-bottom span a{
+	color: #fff;
+	font-size: 1.4rem;
+}
